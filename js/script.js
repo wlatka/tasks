@@ -55,8 +55,8 @@
              <li
              class="list__item${task.done ? " list__item--done" : ""}"
                >
-               <button class="js-done">zrobione?</button>
-               <button class="js-remove">usuń</button>
+               <button class="taskAdded js-done">zrobione?</button>
+               <button class="taskDeleted js-remove">usuń</button>
                ${task.content}
              </li>
              `;

@@ -8,19 +8,6 @@
     font-size: 20px;
 }
 
-.form {
-    display: grid;
-    grid-gap: 10px 10px;
+.taskAdded {
 
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-basis: 5 1;
-
-}
-
-.form__inputwaa {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
 }

@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__input {
+    flex-grow: 3;
+}
+
+.form__button {
+    flex-grow: 1;
+}
