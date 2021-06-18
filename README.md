@@ -1,2 +1,2 @@
 # tasks
-https://wlatka.github.io/homepage/
+https://wlatka.github.io/tasks/
