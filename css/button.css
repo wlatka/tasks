@@ -1,0 +1,24 @@
+.list__item {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  align-items: center;
+}
+
+.botton__taskAdded {
+  background-color: green;
+  border-style: none;
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.botton__taskDeleted {
+  background-color: red;
+  border-style: none;
+  height: 30px;
+  width: 30px;
+  color: white;
+}

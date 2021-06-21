@@ -14,11 +14,3 @@ Body {
     max-width: 800px;
     background-color: hsl(0, 0%, 84%);
     }
-
-.list__item {
-    color: blue;
-}
-
-.list__item--done {
-    text-decoration: line-through;
-}

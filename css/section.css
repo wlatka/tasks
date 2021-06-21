@@ -1,13 +1,21 @@
 .section {
-    background-color: white;
-    margin: 20px;
     padding: 20px;
+    margin: 10px 0;
+    background-color: white;
 }
 
 .section__header {
-    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 20px;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.taskAdded {
-
+@media(max-width:500px) {
+    .section__header {
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
 }
