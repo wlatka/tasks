@@ -10,12 +10,16 @@
     grid-gap: 20px;
     font-size: 22px;
     margin: 10px;
-    padding: 10px;
+    border-bottom: 1px solid rgb(233, 233, 233);
 }
 
-@media(max-width:500px) {
+@media(max-width:700px) {
     .section__header {
         grid-template-columns: auto;
         grid-gap: 10px;
     }
+}
+
+.section__tasks {
+    padding: 10px;
 }

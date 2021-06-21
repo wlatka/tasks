@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.list__item--done {
+  color: rgb(0, 114, 180);
+}
+
 .botton__taskAdded {
   background-color: green;
   border-style: none;
