@@ -1,28 +1,28 @@
-.list__item {
-  display: grid;
-  padding: 10px;
-  grid-template-columns: auto 1fr auto;
-  grid-gap: 10px;
-  border-bottom: 1px solid rgb(233, 233, 233);
-  align-items: center;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.list__item--done {
-  color: rgb(0, 114, 180);
+.buttons__button {
+  background: transparent;
+  color: hsl(180, 100%, 19%);
+  border: none;
+  margin: 0 0 0 20px;
+  transition: color 0.3s;
+  font-size: 14px;
 }
 
-.botton__taskAdded {
-  background-color: green;
-  border-style: none;
-  height: 30px;
-  width: 30px;
-  color: white;
+@media(max-width: 767px) {
+  .buttons__button {
+    flex-basis: 100%;
+    margin: 10px;
+  }
 }
 
-.botton__taskDeleted {
-  background-color: red;
-  border-style: none;
-  height: 30px;
-  width: 30px;
-  color: white;
+.buttons__button:hover {
+  color: hsl(180, 100%, 35%);
+}
+
+.buttons__button:disabled {
+  color: #ccc;
 }
